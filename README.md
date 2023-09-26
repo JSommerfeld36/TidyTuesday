@@ -1,2 +1,2 @@
 # TidyTuesday
-Collection of all my Tidy Tuesday visualisations
+Collection of all my #TidyTuesday visualisations
