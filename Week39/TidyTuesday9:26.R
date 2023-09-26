@@ -21,10 +21,10 @@ ggplot(data = dat, aes(x = Episode, y = F_count_RK, group = as.factor(Season))) 
   scale_color_manual(name = "Season", values=c("#EA0406", "#FFD45A",  "#0176F2")) +
   geom_point(color = "white", size = 1) +
   scale_x_continuous(breaks = 1:12, minor_breaks = 1:12, expand = c(.05, .05)) +
-  labs(title = "How many f#cks does Roy Kent give?", 
+  labs(title = "How many f-cks does Roy Kent give?", 
        caption = "Data from: https://github.com/deepshamenghani/richmondway", 
        x = "Episode in Season", 
-       y = "Number of f#cks per episode") + 
+       y = "Number of f-cks per episode") + 
   guides(alpha = 'none') +
   theme(
     plot.title = element_text(hjust = 0.15),
